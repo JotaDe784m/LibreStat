@@ -41,6 +41,9 @@ Este documento establece las reglas inviolables para cualquier agente de intelig
    - **Persistencia (`crates/librestat-storage/`)**: Transacciones SQLite, guardado atómico en `.lstat`, parsing de CSV y Excel.
    - **Motor Estadístico (`crates/librestat-core/`)**: Cálculos matemáticos y estructuras columnares puras. **PROHIBIDO** importar Tauri o crates de interfaz de usuario aquí.
 3. **Cero Dependencias Circulares**: Mantener una jerarquía acíclica estricta de dependencias en Rust y TypeScript.
+4. **Adherencia Estricta al Sistema de Diseño (`DESIGN.md`)**:
+   - Todo componente de interfaz (UI), diálogo modal de análisis, cuadrícula de hoja de trabajo o gráfico debe apegarse rigurosamente a las especificaciones, tokens semánticos y patrones anatómicos de `DESIGN.md`.
+   - Queda terminantemente prohibido utilizar colores "hardcodeados" arbitrarios, estilos ad-hoc que rompan la coherencia visual o diálogos que violen el patrón estándar de dos columnas.
 
 ---
 

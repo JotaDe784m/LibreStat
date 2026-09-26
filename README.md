@@ -39,6 +39,7 @@ Actualmente el proyecto se encuentra en la **Fase 0: Infraestructura, Gobernanza
 | Documento | Propósito |
 | :--- | :--- |
 | **[AGENTS.md](AGENTS.md)** | **Constitución obligatoria** para agentes de IA y desarrolladores (límites de código, higiene, auditorías y política estricta de commits). |
+| **[DESIGN.md](DESIGN.md)** | **Sistema de diseño e identidad visual**: tokens semánticos, anatomía de diálogos, tipografía tabular y directrices UI. |
 | **[ARCHITECTURE.md](ARCHITECTURE.md)** | Especificación técnica, límites de capas, diagramas C4, modelo de datos y contratos IPC. |
 | **[ROADMAP.md](ROADMAP.md)** | Plan maestro de fases, alcance del MVP Ampliado Académico, entregables y criterios de aceptación. |
 | **[TESTING.md](TESTING.md)** | Protocolo tripartito de validación matemática (NIST StRD, R de referencia y `proptest`). |
