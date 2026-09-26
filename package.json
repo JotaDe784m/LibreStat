@@ -1,0 +1,26 @@
+{
+  "name": "librestat-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Software estadístico de escritorio libre, local-first y multiplataforma",
+  "license": "GPL-3.0-or-later",
+  "packageManager": "pnpm@12.6.0",
+  "scripts": {
+    "dev": "pnpm --filter @librestat/frontend dev",
+    "build": "pnpm --filter @librestat/frontend build",
+    "test": "pnpm --filter @librestat/frontend test",
+    "lint": "eslint .",
+    "fmt:check": "prettier --check .",
+    "fmt:write": "prettier --write .",
+    "check:types": "pnpm -r check:types",
+    "knip": "knip"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "eslint": "^9.11.1",
+    "knip": "^5.30.5",
+    "prettier": "^3.3.3",
+    "typescript-eslint": "^8.7.0"
+  }
+}

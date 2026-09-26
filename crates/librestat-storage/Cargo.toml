@@ -1,0 +1,13 @@
+[package]
+name = "librestat-storage"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Capa de persistencia híbrida (SQLite transaccional y contenedor .lstat) para LibreStat"
+
+[lints]
+workspace = true
+
+[dependencies]
+librestat-core = { path = "../librestat-core" }

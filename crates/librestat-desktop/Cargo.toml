@@ -1,0 +1,14 @@
+[package]
+name = "librestat-desktop"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Aplicación de escritorio Tauri v2 para LibreStat"
+
+[lints]
+workspace = true
+
+[dependencies]
+librestat-core = { path = "../librestat-core" }
+librestat-storage = { path = "../librestat-storage" }

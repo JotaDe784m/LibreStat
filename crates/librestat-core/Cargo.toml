@@ -1,0 +1,12 @@
+[package]
+name = "librestat-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Motor de cálculo estadístico y estructuras columnares puras para LibreStat"
+
+[lints]
+workspace = true
+
+[dependencies]

@@ -1,0 +1,27 @@
+[workspace]
+members = [
+    "crates/librestat-core",
+    "crates/librestat-storage",
+    "crates/librestat-desktop",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["LibreStat Contributors"]
+license = "GPL-3.0-or-later"
+repository = "https://github.com/LibreStat/LibreStat"
+homepage = "https://librestat.org"
+
+[workspace.lints.rust]
+unsafe_code = "deny"
+missing_docs = "warn"
+
+[workspace.lints.clippy]
+all = "warn"
+correctness = "deny"
+suspicious = "deny"
+complexity = "warn"
+perf = "warn"
+style = "warn"
